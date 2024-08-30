@@ -1,4 +1,3 @@
-import React from "react";
 import Calendar from "./Calendar";
 import dayjs from "dayjs";
 
@@ -9,8 +8,8 @@ function App() {
     <div className="App">
       <Calendar
         value={dayjs("2024-07-13")}
-        style={{ background: "yellow" }}
-        className={"aaa"}
+        locale="en-US"
+        onChange={(date) => {}}
       ></Calendar>
     </div>
   );
